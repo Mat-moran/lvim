@@ -1,0 +1,60 @@
+{
+  "test console log object": {
+    "prefix": "clog",
+    "body": "console.log('${1:object}:', ${1})",
+    "description": "console.log object"
+  },
+  "React funtion component exported": {
+    "prefix": "k3k3k3k3",
+    "body": [
+      "const ${TM_FILENAME_BASE}: React.FC = () => {",
+      "\treturn (",
+      "\t\t${1}",
+      "\t)",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE}"
+    ],
+    "description": "React function component with export"
+  },
+  "React funtion component exported": {
+    "prefix": "kkk",
+    "body": [
+      "const ${TM_FILENAME_BASE}: React.FC = () => {",
+      "\treturn (",
+      "\t\t${1}",
+      "\t)",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE}"
+    ],
+    "description": "React function component with export"
+  },
+  "div": {
+    "prefix": "div",
+    "body": [
+      "<div>",
+      "\t${1}",
+      "</div>"
+    ],
+    "description": "Simple div"
+  },
+  "Tailwind div": {
+    "prefix": "tdiv",
+    "body": [
+      "<div className='${1}'>",
+      "\t${2}",
+      "</div>"
+    ],
+    "description": "tailwind div"
+  },
+  "Tailwind h1": {
+    "prefix": "th1",
+    "body": [
+      "<h1 className='${1}'>",
+      "\t${2}",
+      "</h1>"
+    ],
+    "description": "tailwind h1"
+  }
+}

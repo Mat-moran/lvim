@@ -1,0 +1,35 @@
+{
+  "React funtion component exported": {
+    "prefix": "k3k3k3k3",
+    "body": [
+      "const ${TM_FILENAME_BASE}: React.FC = () => {",
+      "\treturn (",
+      "\t\t${1}",
+      "\t)",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE}"
+    ],
+    "description": "React function component with export"
+  },
+  "React funtion component exported": {
+    "prefix": "kkkkk",
+    "body": [
+      "const ${TM_FILENAME_BASE}: React.FC = () => {",
+      "\treturn (",
+      "\t\t${1}",
+      "\t)",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE}"
+    ],
+    "description": "React function component with export"
+  },
+  "div": {
+    "prefix": "div",
+    "body": [
+      "<div>${1}</div>",
+    ],
+    "description": "Simple div"
+  }
+}
