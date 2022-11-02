@@ -166,6 +166,9 @@ lvim.plugins = {
     end,
   },
   {
+    "p00f/nvim-ts-rainbow",
+  },
+  {
     "tpope/vim-surround",
 
     -- make sure to change the value of `timeoutlen` if it's not triggering correctly, see https://github.com/tpope/vim-surround/issues/117
@@ -173,6 +176,7 @@ lvim.plugins = {
     --  vim.o.timeoutlen = 500
     -- end
   },
+  { 'TimUntersberger/neogit', requires = 'nvim-lua/plenary.nvim' },
   {
     "romgrk/nvim-treesitter-context",
     config = function()
@@ -194,6 +198,18 @@ lvim.plugins = {
       }
     end
   },
+  -- Navigation and Motion plugins
+  -- { "ggandor/leap.nvim" }, do not work
+  -- {
+  --   "phaazon/hop.nvim",
+  --   event = "BufRead",
+  --   config = function()
+  --     require("hop").setup()
+  --     vim.api.nvim_set_keymap("n", "s", ":HopChar2<cr>", { silent = true })
+  --     vim.api.nvim_set_keymap("n", "S", ":HopWord<cr>", { silent = true })
+  --   end,
+  -- },
+
 
 
   -- Debug plugins
@@ -212,6 +228,7 @@ lvim.plugins = {
   --     },
 }
 
+lvim.builtin.treesitter.rainbow.enabled = true
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- lvim.autocommands.custom_groups = {
 --   { "BufWinEnter", "*.lua", "setlocal ts=8 sw=8" },

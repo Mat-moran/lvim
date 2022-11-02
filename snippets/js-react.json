@@ -5,7 +5,7 @@
     "description": "console.log object"
   },
   "React funtion component exported": {
-    "prefix": "k3k3k3k3",
+    "prefix": "ecom",
     "body": [
       "const ${TM_FILENAME_BASE}: React.FC = () => {",
       "\treturn (",
@@ -52,7 +52,7 @@
     "prefix": "th1",
     "body": [
       "<h1 className='${1}'>",
-      "\t${2}",
+      "  ${0}",
       "</h1>"
     ],
     "description": "tailwind h1"
